@@ -2,7 +2,7 @@
 #Importamos pandas y le asignamos el valor pd.
 import pandas as pd
 
-#Cargamos el archivo CSV  mediante pd.read_csv(...).
+#Cargamos el archivo CSV  mediante pd.read_csv(...).Y mostramos los 5 primeros registros.
 elenco = pd.read_csv("imdb_elenco.csv")
 print(elenco.head(5))
 
